@@ -1,6 +1,6 @@
 import "./Header.css";
 
-export default function Header({headTitle}){
+export default function Header({headTitle, headerExpanded}){
 
     return(
         <div className="head-container">
