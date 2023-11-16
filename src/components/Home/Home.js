@@ -1,7 +1,8 @@
+import Header from "../Header/Header";
 
 export default function Home(){
-
+    const name = require('@rstacruz/startup-name-generator');
     return(
-        <p>hello home</p>
+       <Header headTitle="this is the header"/> 
     );
 };
