@@ -1,6 +1,6 @@
-import Header from "../Header/Header";
-import ResultContainer from "../ResultContainer/ResultContainer";
-import SearchBox from "../SearchBox/SearchBox";
+import Header from "../../Header";
+import ResultContainer from "../../ResultContainer/ResultContainer";
+import SearchBox from "../../SearchBox/SearchBox";
 import { useState } from "react";
 const name = require('@rstacruz/startup-name-generator');
 
