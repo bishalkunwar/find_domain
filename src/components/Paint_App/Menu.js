@@ -14,10 +14,10 @@ export default function Menu({setLineColor, setLineWidth, setLineOpacity, setEra
                 <label>Brush Opacity</label>
                 <input type="range" min="1" max="100" onChange={(e)=>setLineOpacity(e.target.value/100)}/>
             </div>
-            <div className="menu-eraser">
+            {/* <div className="menu-eraser">
                 <label>Eraser</label>
                 <input type="range" min="3" max="20" onChange={(e)=>setEraserSize(e.target.value)}/>
-            </div>
+            </div> */}
         </div>
     );
 };
