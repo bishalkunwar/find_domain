@@ -11,7 +11,7 @@ export default function Menu({setLineColor, setLineWidth, setLineOpacity}){
             <input type="range" min="3" max="20" onChange={(e)=>setLineWidth(e.target.value)}/>
 
             <label>Brush Opacity</label>
-            <input type="range" min="1" max="100" onChange={(e)=>e.target.value/100}/>
+            <input type="range" min="1" max="100" onChange={(e)=>setLineOpacity(e.target.value/100)}/>
         </div>
     );
 };

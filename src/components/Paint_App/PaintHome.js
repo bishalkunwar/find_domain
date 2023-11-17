@@ -44,9 +44,6 @@ export default function PaintHome(){
                     height={`720px`}
                 />
             </div>
-
-
-
         </div>
     );
 };

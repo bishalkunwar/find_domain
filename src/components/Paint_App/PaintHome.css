@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+.menu{
+    width: 50rem;
+    height: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    align-items: center;
+    background-color: wheat;
+    margin: auto;
+    margin-top: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+.paint-home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.app-header{
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: #4644f0;
+}
+
+.draw-area{
+    width: 1280px;
+    height: 79vh;
+    border: 2px solid black;
+    position: relative; 
+    background-color: white; 
+}
