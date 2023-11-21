@@ -1,11 +1,12 @@
 import { LandPage } from "./LandPage"
+import "./JokeHome.css";
 
 export default function JokeHome(){
 
     return(
-        <div classname="joke-app">
+        <div className="joke-app">
             <h1>Joke Generator App Using React via API.</h1>
-            <LandPage/>
+            <LandPage className="landpage"/>
         </div>
     )
 }

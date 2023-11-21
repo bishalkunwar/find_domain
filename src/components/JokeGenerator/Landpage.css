@@ -6,7 +6,10 @@ button{
     color: #ffffff;
     border: none;
     font-size: 16px;
+    height: 5rem;
+    width: 15rem;
     cursor: pointer;
+    text-align: center;
     border-radius: 8px;
     transition: background-color .5s;
     -webkit-border-radius: 8px;
