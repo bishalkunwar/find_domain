@@ -1,10 +1,10 @@
 
 import "./Landpage.css";
 
-export const LandPage =()=>{
+export const LandPage =(props)=>{
 
     return(
-        <button onClick={callApi}>
+        <button onClick={props.callApi}>
             Click To Generate a Joke.
         </button>
     );
