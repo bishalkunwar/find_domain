@@ -11,3 +11,9 @@
 .search-box{
     height: 10vh;
 }
+
+.search-box>input, button{
+    box-sizing: border-box;
+    height: 25px;
+    font-size: 20px;
+}
